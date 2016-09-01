@@ -1,0 +1,34 @@
+
+
+
+In a nutshell:
+
+-   A MyWord document is read as lines of text that are grouped into blocks.
+
+-   The first word in a block may be a markup label, the remainder is the content text.
+
+-   Blocks without a markup label are normal paragraphs of prose.
+
+-	Authors can define a vocabulary of labels for their own markup language.
+
+-	There are no special syntax characters, the text content can be used in any way the author desires.
+
+-	The translation of content into HTML (or XML) is determined by the definition of the markup label.
+
+-   A standard browser can be empowered to read MyWord documents and present them as HTML.
+
+
+.demo
+	-  First bullet point...
+
+	-  Second point...
+
+	  +  First step in the second point.
+	  +  Second step..
+	  +  Third step.
+
+	-  Third point.
+
+	&   - = list <ul>
+	&   + = list <ol>
+

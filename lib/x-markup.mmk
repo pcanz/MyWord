@@ -178,9 +178,12 @@ demo    :: (content) => "<tr><td class='A1'>" +
         white-space:pre; font-family:monospace; background:whitesmoke;
     }
 
+    .eg {margin:10pt 0pt;}
+
     table.demo {
         table-layout:fixed; width:100%;
         border-spacing:5pt 0pt;
+        margin:10pt 0pt;
     }
     table.demo td.A1 {
         width:50%; overflow:hidden; vertical-align:top;
